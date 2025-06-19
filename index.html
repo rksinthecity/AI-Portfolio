@@ -263,7 +263,7 @@
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
-    apiKey: "",
+    apiKey: GEMINI_API_KEY,
     authDomain: "rksportfolio-db43f.firebaseapp.com",
     projectId: "rksportfolio-db43f",
     storageBucket: "rksportfolio-db43f.firebasestorage.app",
@@ -333,7 +333,7 @@
     const chatbotInput = document.getElementById('chatbot-input');
     const chatbotMessages = document.getElementById('chatbot-messages');
     // Replace with your actual Gemini API key
-    const GEMINI_API_KEY = '';
+    const GEMINI_API_KEY = GEMINI_KEY_API;
 
     chatBubble.addEventListener('click', () => {
       chatbotOverlay.classList.toggle('open');
